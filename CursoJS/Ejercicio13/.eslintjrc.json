@@ -1,0 +1,8 @@
+{
+    "rules": {
+        "semi": "error",
+        "prefer-const": "error",
+        "ecmaVersion": "latest",
+        "quotes": ["error", "single"]
+    }
+}
