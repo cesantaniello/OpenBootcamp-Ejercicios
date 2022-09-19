@@ -129,3 +129,7 @@ dist
 
 # SvelteKit build / generate output
 .svelte-kit
+
+# Audio and video
+.mp4
+.mp3
