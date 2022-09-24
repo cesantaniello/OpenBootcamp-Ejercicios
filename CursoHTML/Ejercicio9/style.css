@@ -1,0 +1,7 @@
+.btn-modern:hover {
+  background-color: blue;
+  color: white;
+  border-bottom: 2px solid darkblue;
+  transform: translateY(-5px);
+  transition: all 0.4s ease-in-out;
+}
