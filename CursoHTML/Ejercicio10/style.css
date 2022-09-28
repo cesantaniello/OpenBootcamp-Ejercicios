@@ -1,0 +1,30 @@
+.contenedor {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    font-size: 2rem;
+}
+
+div.menu-vertical {
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+div.seccion-principal {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+@media (max-width: 640px) {
+    .contenedor {
+        flex-direction: column-reverse;
+    }
+    div.menu-vertical {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
